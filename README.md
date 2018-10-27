@@ -9,5 +9,9 @@ To set it up, you need to add 2 files:
   In this, you need to add the MySQL connection variables `$sql_servername`, `$sql_username`, `$sql_password` and `$sql_dbname`.
 
 ## servers.php
-  In this, you need to declare a two-dimentional PHP array in the form `"KEY" => array("name" => "NAME", "id" => "ID")`.
+  In this, you need to declare a two-dimentional PHP array in the form 
+  ```
+  "KEY" => array("name" => "NAME", "id" => "ID")
+  ```.
+  
   (Replace `KEY` with the server key, `NAME` with the readable server name, and `ID` with a short ID for the server.)
